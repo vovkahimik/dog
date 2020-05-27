@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
+import sound from './animal_bird_duck_quack_003.mp3'
+
+
+let audio = new Audio(sound)
 
 const Item = (props) => {
-
-    let audio = new Audio('holydonkeyimpact.mp3')
-
     let onSound = () => {
-        audio.play()
         props.upCount()
+        audio.play()
     }
 
     let classItem = props.visibility
