@@ -2,23 +2,15 @@ import React from 'react';
 import './App.css';
 import Item from "./Item";
 
-const Field = () => {
+const Field = (props) => {
 
-    let state = {
-        // currentCount: 0,
-        items: 9,
-        visibility: true
-    }
-
-    let items = []
-    for (let i = 1; i <= state.items; i++) {
-        items.push(<div><Item id={i}
-                              visibility={state.visibility}/></div>)
-    }
+    let circles = props.items.map((item) =>
+        <Item visibility={item.visibility}/>
+    )
 
     return (
         <div className={'field'}>
-            {items}
+            {circles}
         </div>
     )
 }
