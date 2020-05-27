@@ -20,6 +20,12 @@ class App extends React.Component {
         count: 0
     }
 
+    upCount = () => {
+        this.setState({
+            count: this.state.count + 1
+        })
+    }
+
     rerender = setInterval(() => {
             let caseId = Math.floor(Math.random() * 9)
             this.setState({
@@ -44,8 +50,13 @@ class App extends React.Component {
 
         return (
             <div className="App">
-                <Field items={this.state.items}/>
-                <Counter currentCount={this.state.count}/>
+                <Field
+                    items={this.state.items}
+                    upCount={this.upCount}
+                />
+                <Counter
+                    currentCount={this.state.count}
+                />
             </div>
         )
     }
