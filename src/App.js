@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Counter from "./Counter";
+import Field from "./Field";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    let state = {
+        currentCount: 0,
+        items: 9,
+        visibility: false
+    }
+
+    return (
+        <div className="App">
+            <Field items={state.items}/>
+            <Counter currentCount={state.currentCount}/>
+        </div>
+    )
 }
 
-export default App;
+export default App
