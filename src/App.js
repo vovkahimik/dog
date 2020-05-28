@@ -43,7 +43,7 @@ class App extends React.Component {
                     }
                 })
             })
-        }, 1000
+        }, 700
     )
 
     render = () => {
