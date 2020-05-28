@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dog/static/css/main.4df713a5.chunk.css",
+    "main.js": "/dog/static/js/main.1d403677.chunk.js",
+    "main.js.map": "/dog/static/js/main.1d403677.chunk.js.map",
+    "runtime-main.js": "/dog/static/js/runtime-main.c37502f7.js",
+    "runtime-main.js.map": "/dog/static/js/runtime-main.c37502f7.js.map",
+    "static/js/2.a894618e.chunk.js": "/dog/static/js/2.a894618e.chunk.js",
+    "static/js/2.a894618e.chunk.js.map": "/dog/static/js/2.a894618e.chunk.js.map",
+    "index.html": "/dog/index.html",
+    "precache-manifest.9dc20b17aeafaa7d93d6584198275547.js": "/dog/precache-manifest.9dc20b17aeafaa7d93d6584198275547.js",
+    "service-worker.js": "/dog/service-worker.js",
+    "static/css/main.4df713a5.chunk.css.map": "/dog/static/css/main.4df713a5.chunk.css.map",
+    "static/js/2.a894618e.chunk.js.LICENSE.txt": "/dog/static/js/2.a894618e.chunk.js.LICENSE.txt",
+    "static/media/animal_bird_duck_quack_003.mp3": "/dog/static/media/animal_bird_duck_quack_003.f5ede553.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c37502f7.js",
+    "static/js/2.a894618e.chunk.js",
+    "static/css/main.4df713a5.chunk.css",
+    "static/js/main.1d403677.chunk.js"
+  ]
+}
