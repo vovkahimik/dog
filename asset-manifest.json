@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/duck/static/css/main.fbea9947.chunk.css",
+    "main.css": "/duck/static/css/main.38d5476c.chunk.css",
     "main.js": "/duck/static/js/main.97532da4.chunk.js",
     "main.js.map": "/duck/static/js/main.97532da4.chunk.js.map",
     "runtime-main.js": "/duck/static/js/runtime-main.ebb0bb02.js",
@@ -8,16 +8,16 @@
     "static/js/2.fe163f32.chunk.js": "/duck/static/js/2.fe163f32.chunk.js",
     "static/js/2.fe163f32.chunk.js.map": "/duck/static/js/2.fe163f32.chunk.js.map",
     "index.html": "/duck/index.html",
-    "precache-manifest.687271ab7792699e5c3182a311f85d96.js": "/duck/precache-manifest.687271ab7792699e5c3182a311f85d96.js",
+    "precache-manifest.e78b788c5a6e65c1d3c37203dde2a491.js": "/duck/precache-manifest.e78b788c5a6e65c1d3c37203dde2a491.js",
     "service-worker.js": "/duck/service-worker.js",
-    "static/css/main.fbea9947.chunk.css.map": "/duck/static/css/main.fbea9947.chunk.css.map",
+    "static/css/main.38d5476c.chunk.css.map": "/duck/static/css/main.38d5476c.chunk.css.map",
     "static/js/2.fe163f32.chunk.js.LICENSE.txt": "/duck/static/js/2.fe163f32.chunk.js.LICENSE.txt",
     "static/media/animal_bird_duck_quack_003.mp3": "/duck/static/media/animal_bird_duck_quack_003.f5ede553.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.ebb0bb02.js",
     "static/js/2.fe163f32.chunk.js",
-    "static/css/main.fbea9947.chunk.css",
+    "static/css/main.38d5476c.chunk.css",
     "static/js/main.97532da4.chunk.js"
   ]
 }
