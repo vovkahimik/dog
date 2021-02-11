@@ -1,7 +1,6 @@
 {
   "name": "dog",
-  "homepage": "https://vovkahimik.github.io/dog/",
-
+  "homepage": "https://vovkahimik.github.io/duck/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

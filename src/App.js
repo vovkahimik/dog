@@ -4,6 +4,27 @@ import Counter from "./Counter";
 import Field from "./Field";
 
 class App extends React.Component {
+    componentDidMount() {
+        setInterval(() => {
+                let caseId = Math.floor(Math.random() * 9)
+                this.setState({
+                    items: this.state.items.map(item => {
+                        if (item.id === caseId) {
+                            return {
+                                ...item,
+                                visibility: true
+                            }
+                        } else {
+                            return {
+                                ...item,
+                                visibility: false
+                            }
+                        }
+                    })
+                })
+            }, 500
+        )
+    }
 
     state = {
         items: [
@@ -26,26 +47,6 @@ class App extends React.Component {
         })
     }
 
-    rerender = setInterval(() => {
-            let caseId = Math.floor(Math.random() * 9)
-            this.setState({
-                items: this.state.items.map(item => {
-                    if (item.id === caseId) {
-                        return {
-                            ...item,
-                            visibility: true
-                        }
-                    } else {
-                        return {
-                            ...item,
-                            visibility: false
-                        }
-                    }
-                })
-            })
-        }, 700
-    )
-
     render = () => {
 
         return (
@@ -60,7 +61,6 @@ class App extends React.Component {
             </div>
         )
     }
-
 }
 
 export default App
